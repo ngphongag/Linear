@@ -56,8 +56,8 @@ if choice == 'Mục tiêu của mô hình':
     ###### Mô hình được xây dựng để Xác định mức cho vay tối đa.
     """)  
     st.write("""###### Mô hình sử dụng thuật toán LinearRegression""")
-    st.image("LSM.png")
-    st.image("LSM_1.png")
+    st.image("nhom8.png")
+   
 
 elif choice== "Giới thiệu nhóm":
      st.subheader("Thành viên nhóm:")

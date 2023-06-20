@@ -64,7 +64,7 @@ elif choice== "Giới thiệu nhóm":
      st.write("##### 1. Nguyễn Đăng Viết Phong")
      st.write("##### 2. Lê Duy Thịnh")
      st.write("##### 3. Nguyễn Phú Hùng")
-     st.write("##### 4. Trần Quang Trung)
+     st.write("##### 4. Trần Quang Trung")
      st.write("##### 5. Vũ Xuân Dũng")
      st.write("##### 6. Nguyễn Minh Nhật Tùng")
      st.write("##### 7. Nguyễn Mạnh Tú")

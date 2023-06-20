@@ -109,13 +109,13 @@ elif choice == 'Sử dụng mô hình để dự báo':
     
     # khai báo các biến nhập tay theo đúng tên các trường giá trị DATA
     if type=="Input":        
-        git = st.number_input('Khai báo giatri')
-        TN = st.number_input('Khai báo TN')
-        GTC = st.number_input('Khai báo GTC')
-        GD = st.number_input('Khai báo GD')
-        TCH = st.number_input('Khai báo TCH')
-        VPCT = st.number_input('Khai báo VPCT')
-        LS = st.number_input('Khai báo LS')
+        git = st.number_input('Khai báo Giá trị cho vay')
+        TN = st.number_input('Khai báo thu nhập')
+        GTC = st.number_input('Khai báo giá trị tài sản đãm bảo')
+        GD = st.number_input('Khai báo số năm đến trường')
+        TCH = st.number_input('Khai báo độ tuổi')
+        VPCT = st.number_input('Khai báo Nợ khác')
+        LS = st.number_input('Khai báo xếp hạng TD')
         lines={'giatri':[git],'TN':[TN],'GTC':[GTC],'GD':[GD],'TCH':[TCH],'VPCT':[VPCT],'LS':[LS]}
         lines=pd.DataFrame(lines)
         st.dataframe(lines)

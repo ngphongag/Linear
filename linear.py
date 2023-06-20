@@ -11,7 +11,7 @@ import streamlit as st
 df = pd.read_csv("nhom8.csv", encoding='latin-1')
 
 st.title("Nhóm 8 - Ứng dụng")
-st.write("## Xác định mức cho vay tối đa")
+st.write("## Xác định khả năng tiếp cận vốn vay")
 
 #upload file để huấn luyện mô hình
 uploaded_file = st.file_uploader("Chọn files dữ liệu:", type=['csv'])

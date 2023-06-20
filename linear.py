@@ -71,7 +71,7 @@ elif choice== "Giới thiệu nhóm":
      st.write("##### 8. Đỗ Quang Phát")
      st.write("##### 9. Lê Thị Hằng")
    # đưa hình nhóm vào
-     st.image("nhom8.png")
+   #  st.image("nhom8.png")
                
 elif choice == 'Xây dựng mô hình':
     st.subheader("Xây dựng mô hình")

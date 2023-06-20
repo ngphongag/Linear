@@ -113,7 +113,7 @@ elif choice == 'Sử dụng mô hình để dự báo':
         TN = st.number_input('Insert TN')
         GTC = st.number_input('Insert GTC')
         GD = st.number_input('Insert GD')
-       TCH = st.number_input('Insert TCH')
+        TCH = st.number_input('Insert TCH')
         VPCT = st.number_input('Insert VPCT')
         LS = st.number_input('Insert LS')
         lines={'giatri':[git],'TN':[TN],'GTC':[GTC],'GD':[GD],'TCH':[TCH],'VPCT':[VPCT],'LS':[LS]}
